@@ -1,0 +1,3 @@
+run it:
+
+yarn run ts-exec bin/client.ts

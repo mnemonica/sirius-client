@@ -10,7 +10,7 @@ import FilesystemPrinter from '../src/device/printer/filesystem-printer';
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 // const uri = 'ws://localhost:5000/api/v1/connection';
 const uri = 'wss://littleprinter.nordprojects.co/api/v1/connection';
-const printerDataPath = 'fixtures/fb1f6abb95f9b129.printer';
+const printerDataPath = 'fixtures/1e5885c825a54cdb.printer';
 
 
 const printerData = fs.readFileSync(printerDataPath).toString();
